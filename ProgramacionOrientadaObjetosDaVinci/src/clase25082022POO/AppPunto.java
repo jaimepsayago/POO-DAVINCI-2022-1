@@ -15,6 +15,7 @@ public class AppPunto {
 		p2.setX(60);
 		p2.setY(80);
 		
+		
 		System.out.println(p.getY());
 	}
 
