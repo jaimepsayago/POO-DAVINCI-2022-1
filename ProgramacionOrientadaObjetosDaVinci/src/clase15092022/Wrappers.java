@@ -47,7 +47,7 @@ public class Wrappers {
 		String cadena12 = "hola esta es una cadena de caracteres";
 		
 		System.out.println(cadena12);
-		System.out.println("tamaño" + cadena12.length());
+		System.out.println("tamaÃ±o" + cadena12.length());
 		System.out.println("la subcadena que ubica pos 14 y 20 es --" + cadena12.substring(14, 20)); 
 		System.out.println("la subcadena <una> --" + cadena12.indexOf("una"));
 		for (int i =0; i<cadena12.length();i++)
@@ -69,9 +69,13 @@ if (cadena1 == cadena2)
 else
 	System.out.println("la referencia cadena 1 y cadena 2 apuntan a objetos diferentes");
 
+//operaciones con cadenas
 
-
-
+cadena1 = "haz bien ";
+cadena1 = cadena1 + "y no mires a quien";
+System.out.println(cadena1);
+cadena1 = cadena1.concat(" otro valor");
+System.out.println(cadena1);
 	}
 
 }
