@@ -9,6 +9,8 @@ public enum VasoPiscina {
 	private int precioPorMetroCubico;
 	private String descripcion;
 	
+	
+	
 	private VasoPiscina(int precioPorMetroCubico, String descripcion) {
 		this.precioPorMetroCubico = precioPorMetroCubico;
 		this.descripcion = descripcion;
