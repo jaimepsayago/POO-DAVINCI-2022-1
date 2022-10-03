@@ -8,5 +8,7 @@ public interface OperacionesInterface {
 	
 	public String ejecutarNombre(String nombre);
 	
+	//agregar metodos que se requieren 
+	
 	
 }
