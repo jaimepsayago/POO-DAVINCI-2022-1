@@ -10,7 +10,7 @@ public class AppInformacion {
 		
 		Persona p1 = new Persona("Ana", "Garcia", 26);
 		Persona p2 = new Persona("Juan", "Calle", 36);
-		Trabajador t1 = new Trabajador("Antonio", "Ruiz", 25, 1200);
+		Trabajador t1 = new Trabajador("Antonio", "Ruiz", 25, 2500);
 		Trabajador t2 = new Trabajador("Esteban","Diaz", 25, 36);
 		//una lista de tipo personas
 		ArrayList<Persona> lPersonas = new ArrayList<Persona>();
@@ -23,7 +23,7 @@ public class AppInformacion {
 		//mostrar informacion
 		for(int i=0; i<lPersonas.size();i++) {
 			System.out.println(lPersonas.get(i).toString());
-			System.out.println(lPersona.get(i).calcularPaga());
+			lPersonas.get(i).calcularPaga();
 		}
 		
 		//Tarea. 

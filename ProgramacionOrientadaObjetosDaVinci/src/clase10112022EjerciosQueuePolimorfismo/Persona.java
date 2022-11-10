@@ -1,6 +1,6 @@
 package clase10112022EjerciosQueuePolimorfismo;
 
-public class Persona {
+public class Persona implements Paga {
 	private String nombre;
 	private String apellido;
 	private int edad;
@@ -34,6 +34,9 @@ public class Persona {
 	@Override
 	public String toString() {
 		return "Persona [nombre=" + nombre + ", apellidos=" + apellido + ", edad=" + edad + "]";
+	}
+	public void calcularPaga() {
+		//codificamos
 	}
 	
 	
