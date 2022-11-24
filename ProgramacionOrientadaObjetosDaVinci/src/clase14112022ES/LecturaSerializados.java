@@ -10,14 +10,14 @@ public class LecturaSerializados {
 		
 		try {
 			ObjectInputStream objectInputStream 
-			= new ObjectInputStream(new FileInputStream("objetoSerializado.dat"));
+			= new ObjectInputStream(new FileInputStream("d:\\objetoSerializado.dat"));
 			
 			int numeroEstado = objectInputStream.readInt();
-			Estado estado; //obj
+			Estado estado; //obj 
 			
 			for(int i=1; i<=numeroEstado; i++) {
 				estado = (Estado) objectInputStream.readObject();
-				System.out.println("nombre" + estado.getNombre());
+				System.out.println("nombre: " + estado.getNombre());
 				
 			}
 			objectInputStream.close();

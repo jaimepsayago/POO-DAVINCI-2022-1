@@ -43,7 +43,13 @@ private int numeroHabitantes;
 
     public void setNumeroHabitantes(int numeroHabitantes) {
         this.numeroHabitantes = numeroHabitantes;
-    }    
+    }
+
+	@Override
+	public String toString() {
+		return "Estado [idEstado=" + idEstado + ", nombre=" + nombre + ", numeroHabitantes=" + numeroHabitantes + "]";
+	}    
    
+    
 
 }
